@@ -28,15 +28,28 @@
 	<!-- include -->
 	<link rel="stylesheet" href="./assets/css/default.css" />
 	<link rel="stylesheet" href="./assets/css/style.css" />
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
 
 	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript">   
+		$(document).ready( function() {
+			$("#nav").load("./include/nav.html");	
+		});
+	</script>
 	<!-- // include -->
 
 	<!-- Google Analytics -->
 	<!-- // Google Analytics -->
 </head>
 <body>
+	<header>
+		<div id="title"></div>
+		<nav id="nav"></nav>
+	</header>
+	
+	<div class="contents">
+	</div>	
+	
 <h1>안녕하세요 Choiwonsik 123456789 rR</h1>
 <p>최원식입니다. 본문이 얼마나 안깨질지에 대한 걸 확인해봅시다. 기본이 이렇게 얇은 글씨체입니다.</p>
 <p style="font-size:32px;">글씨가 크면 어떨까?</p>
