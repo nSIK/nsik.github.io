@@ -2,3 +2,18 @@
 document : CSS Style
 publishing : Wonsik Choi (nsikchoi@gmail.com)
 */
+
+
+header {position: fixed; width:2rem; height: 90vh; right:1rem; top:5vh; bottom:5vh; border-left:4px solid #222;}
+header nav {transform: rotate(90deg); transform-origin: left top; overflow: hidden; width:90vh; height: 1.6rem; margin-left: 2rem;}
+header nav ul.main-menu {float:left; overflow: hidden;}
+header nav ul.main-menu li {float:left; margin-right: 1rem;}
+header nav ul.main-menu li:last-child {margin-right: 0;}
+header nav ul.main-menu li a {font-size:1rem;}
+
+header nav ul.sub-menu {float:right; overflow: hidden;}
+header nav ul.sub-menu li {float:left; margin-right: 1rem;}
+header nav ul.sub-menu li:last-child {margin-right:0;}
+header nav ul.sub-menu li a {font-size:0.8rem;}
+
+.contents h1 {font-size:1rem;}
