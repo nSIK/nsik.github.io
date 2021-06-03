@@ -1,4 +1,20 @@
-@font-face { font-family: 'GmarketSans'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: 400; font-style: normal; }
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+}
 
 /*
 document : CSS Reset
@@ -7,7 +23,7 @@ publishing : Wonsik Choi (nsikchoi@gmail.com)
 
 html, body {height:100%;}
 body {margin:0; padding:0; font-size:1rem; line-height:1.6; color:#666; -webkit-text-size-adjust:none;}
-body,input,button {font-family: 'GmarketSans','Apple SD Gothic Neo','맑은고딕',Malgun Gothic,'돋움',Dotum,sans-serif;}
+body,input,button {font-family: 'Spoqa Han Sans Neo','Apple SD Gothic Neo','맑은고딕',Malgun Gothic,'돋움',Dotum,sans-serif;}
 * {box-sizing: border-box;}
 
 img {display:inline-block; border:0 none; vertical-align:top;}
