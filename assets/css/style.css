@@ -1,6 +1,6 @@
 :root {
 	--gray-50 : #E9ECEF;
-	--gray-200 : #DEE2E6;
+	--gray-300 : #CED4DA;
 	--gray-600 : #666D75;
 	--gray-800 : #343A40;	
 }
@@ -15,9 +15,9 @@ section#main .about {width:100%; position: sticky; left:0; top:4rem;}
 section#main .about p {color:var(--gray-600); font-size:1rem; margin: 1.5rem 0;}
 section#main .about .contact {margin-top:4rem;}
 section#main .about .contact a {font-size: 0.8rem; height: 2.5rem; line-height:2.5rem; padding:0 1.5rem; border-radius: 1.25rem; color:var(--gray-800); background:var(--gray-50); margin-right: 0.5rem; margin-bottom: 0.5rem;}
-section#main .about .contact a:hover {background:var(--gray-200); text-decoration: none;}
+section#main .about .contact a:hover {background:var(--gray-300); text-decoration: none;}
 
-h1 {font-family: 'Merriweather', serif; font-weight: 900; color:var(--gray-800); margin-bottom: 4rem; font-size: 4rem; line-height: 1.25;}
+h1 {font-family: 'Merriweather', serif; font-weight: 900; color:var(--gray-800); margin-bottom: 4rem; font-size: 4rem; line-height: 1.25; font-style: italic;}
 
 ul {display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: baseline;}
 ul li {max-width: 50%;}
@@ -35,9 +35,9 @@ ul li img {display:block; width: auto; height: auto; max-width: 100%;}
 @media screen and (max-width:767px) {
 	html {font-size: 12px;}
 	
-	section#main {padding:4rem 0;}
-	section#main .about {width:90%; position: relative; left:auto; top:auto; margin:0 auto;}
+	section#main {padding:4rem 0 6rem;}
+	section#main .about {width:88%; position: relative; left:auto; top:auto; margin:0 auto;}
 	
 	section {grid-column: 1 / 3;}
-	ul li {max-width: 95%;}
+	ul li {max-width: 47%;}
 }
