@@ -1,33 +1,43 @@
-/*
-document : CSS Style
-publishing : Wonsik Choi (nsikchoi@gmail.com)
-*/
+:root {
+	--gray-50 : #E9ECEF;
+	--gray-200 : #DEE2E6;
+	--gray-600 : #666D75;
+	--gray-800 : #343A40;	
+}
+
 html {font-size:16px;}
 header {position: fixed; width:3rem; right:1rem; top:2rem; bottom:2rem; border-left:0.25rem solid #222;}
 
-header nav {
-	-ms-transform: rotate(90deg);
-	-webkit-transform: rotate(90deg);
-	transform: rotate(90deg);
-	-ms-transform-origin: left top;
-	-webkit-transform-origin: left top;
-	transform-origin: left top;
-	overflow: hidden; width:calc(100vh - 4rem); height: 1.6rem; margin-left: 2.25rem;
+.container {display: grid; grid-template-columns: 2fr 3fr;}
+
+section#main {padding:4rem;}
+section#main .about {width:100%; position: sticky; left:0; top:4rem;}
+section#main .about p {color:var(--gray-600); font-size:1rem; margin: 1.5rem 0;}
+section#main .about .contact {margin-top:4rem;}
+section#main .about .contact a {font-size: 0.8rem; height: 2.5rem; line-height:2.5rem; padding:0 1.5rem; border-radius: 1.25rem; color:var(--gray-800); background:var(--gray-50); margin-right: 0.5rem; margin-bottom: 0.5rem;}
+section#main .about .contact a:hover {background:var(--gray-200); text-decoration: none;}
+
+h1 {font-family: 'Merriweather', serif; font-weight: 900; color:var(--gray-800); margin-bottom: 4rem; font-size: 4rem; line-height: 1.25;}
+
+ul {display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: baseline;}
+ul li {max-width: 50%;}
+ul li img {display:block; width: auto; height: auto; max-width: 100%;}
+
+
+@media screen and (max-width:1439px) {
+	.container {display: grid; grid-template-columns: 1fr 1fr;}
 }
-header nav ul.main-menu {float:left; overflow: hidden;}
-header nav ul.main-menu li {float:left; margin-right: 1.5rem;}
-header nav ul.main-menu li:last-child {margin-right: 0;}
-header nav ul.main-menu li a {font-size:1rem; color:#222;}
 
-header nav ul.sub-menu {float:left; overflow: hidden; margin-left:3.5rem;}
-header nav ul.sub-menu li {float:left; margin-right: 1.5rem;}
-header nav ul.sub-menu li:last-child {margin-right:0;}
-header nav ul.sub-menu li a {font-size:0.75rem; color:#222;}
-
-.contents {padding:2rem;}
-.contents h1 {font-size:1rem; line-height: 1.25rem;}
-.contents h2 {margin-top:6rem; font-size:4rem;}
+@media screen and (max-width:1023px) {
+	html {font-size: 14px;}
+}
 
 @media screen and (max-width:767px) {
-	html {font-size: 12px;}	
+	html {font-size: 12px;}
+	
+	section#main {padding:4rem 0;}
+	section#main .about {width:90%; position: relative; left:auto; top:auto; margin:0 auto;}
+	
+	section {grid-column: 1 / 3;}
+	ul li {max-width: 95%;}
 }
