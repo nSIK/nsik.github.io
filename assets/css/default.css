@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
-@font-face {
-    font-family: 'Spoqa Han Sans Neo';
-    font-weight: 700;
-    src: local('Spoqa Han Sans Bold'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Bold.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @font-face {
     font-family: 'Spoqa Han Sans Neo';
