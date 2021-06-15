@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 @font-face {
     font-family: 'Spoqa Han Sans Neo';
-    font-weight: 400;
-    src: local('Spoqa Han Sans Regular'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf') format('truetype');
+    font-weight: 500;
+    src: local('Spoqa Han Sans Neo Medium'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf') format('truetype');
 }
 
 /*
@@ -22,7 +22,7 @@ body,input,button {font-family: 'Spoqa Han Sans Neo','Apple SD Gothic Neo','ë§‘ì
 
 img {display:inline-block; border:0 none; vertical-align:baseline;}
 a, cite, code, dfn, del, em, ins, label, q, span, strong {display:inline-block;}
-h1, h2, h3, h4, h5, h6 {margin:0; padding:0; color:#222; font-weight: 400;}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0; color:#222; font-weight: 500;}
 address, cite, em, dfn {font-style:normal;}
 sub {vertical-align:bottom; font-weight:normal !important;font-size:0.5rem;}
 sup {vertical-align:top; font-weight:normal !important;font-size:0.5rem;}
